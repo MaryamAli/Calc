@@ -23,6 +23,8 @@ body{
   width: 212px;
   padding: 0 10px;
   border: 1px solid black;
+  background: white;
+  line-height: 40px;
 }
 
 .keys, .top {
@@ -38,15 +40,26 @@ body{
   margin: 0 7px 11px 0;
   text-align: center;
   border: 1px solid black;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  
 }
 
 .keys span.operator{
   background: blue;
-
 }
 
 .keys span.eval{
   background: pink;
+}
+
+.top span.clear {
+  background: pink;
+}
+
+.keys span:hover {
+  background: grey;
 }
 
 
