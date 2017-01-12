@@ -5,7 +5,7 @@ body{
 }
 
 .calc {
-  width: 325px;
+  width: 315px;
   height: auto;
   margin: 100px auto;
   padding: 20px 20px 9px;
@@ -18,9 +18,9 @@ body{
 }
 
 .top .screen {
-  float: right;
+  float: left;
   height: 40px;
-  width: 212px;
+  width: 196px;
   padding: 0 10px;
   border: 1px solid black;
   background: white;
