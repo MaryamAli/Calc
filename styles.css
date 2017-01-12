@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calc {
+  width: 325px;
+  height: auto;
+  margin: 100px auto;
+  padding: 20px 20px 9px;
+  background: red;
+}
+
+/*top & screen part*/
+.top span.clear {
+  float: left;
+}
+
+.top .screen {
+  float: right;
+  height: 40px;
+  width: 212px;
+  padding: 0 10px;
+  border: 1px solid black;
+}
+
+.keys, .top {
+  overflow: hidden;
+}
+
+.keys span, .top span.clear {
+  float: left;
+  position: relative;
+  top: 0;
+  width: 66px;
+  height: 36px;
+  margin: 0 7px 11px 0;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.keys span.operator{
+  background: blue;
+
+}
+
+.keys span.eval{
+  background: pink;
+}
+
+
+
