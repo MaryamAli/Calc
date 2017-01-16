@@ -30,19 +30,24 @@
       </div>
   </div>
   <script>
-    var keys = document.querySelectorAll('.keys span');
+    var keys = document.querySelectorAll('.calc span');
     var operators = ['+', '-', 'x', '÷'];
     var decimalAdded = false;
 
     for(var i = 0; i < keys.length; i++){
       keys[i].onclick = function(e){
+
         //get button values
         var input = document.querySelector('.screen');
+        // console.log(input);
         var inputVal = input.innerHTML;
         var btnVal = this.innerHTML;
+       
+        input.innerHTML += btnVal;
         console.log(btnVal);
-      }
-    }
+      }     
+    }     
+
   </script>
 </body>
 

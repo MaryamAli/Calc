@@ -23,8 +23,9 @@ body{
   width: 196px;
   padding: 0 10px;
   border: 1px solid black;
-  background: white;
+  background: yellow;
   line-height: 40px;
+  text-align: right;
 }
 
 .keys, .top {
